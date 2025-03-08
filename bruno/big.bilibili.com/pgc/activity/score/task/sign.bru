@@ -5,7 +5,7 @@ meta {
 }
 
 post {
-  url: https://api.bilibili.com/pgc/activity/score/task/sign
+  url: https://api.bilibili.com/pgc/activity/score/task/sign2
   body: formUrlEncoded
   auth: none
 }
@@ -16,25 +16,13 @@ headers {
   native_api_from: h5
   buvid: {{buvid}}
   accept: application/json, text/plain, */*
-  referer: https://big.bilibili.com/mobile/index?exp_symbol=release_version&oflAb=1
+  referer: https://big.bilibili.com/mobile/index?appId=125&appSubId=minebutton&banner_id=28510&popup_id=28507&order_report_params=%7B%22act_id%22%3A%22762%22%2C%22buvid%22%3A%22ZC4791C6CC457A5B4B66B09B5B775E0A1AB7%22%2C%22exp_group_tag%22%3A%22def%22%2C%22exp_tag%22%3A%22def%22%2C%22material_type%22%3A%223%22%2C%22mid%22%3A%22729780%22%2C%22position_id%22%3A%223%22%2C%22request_id%22%3A%2201a8b8cc16705cdd10a091490f67bafe%22%2C%22source_from%22%3A%22vip.my-page.vip.entrance.click%22%2C%22tips_id%22%3A%22106637%22%2C%22tips_repeat_key%22%3A%22106637%3A3%3A1740307969%3A729780%22%2C%22unit_id%22%3A%2228514%22%2C%22vip_status%22%3A%221%22%2C%22vip_type%22%3A%222%22%7D&source_from=vip.my-page.vip.entrance.click&source_from=main.my-information.vip-entrance.new.click
   user-agent: {{user-agent}}
   x-bili-trace-id: 9c642fae280ce80077653eef826774e3:77653eef826774e3:0:0
   x-bili-aurora-eid: UlAAQFkMBVkH
-  x-bili-mid: {{mid}}
-  x-bili-aurora-zone: 
-  x-bili-gaia-vtoken: 
-  x-bili-ticket: eyJhbGciOiJIUzI1NiIsImtpZCI6InMwMyIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MzU3MzgxMTEsImlhdCI6MTczNTcwOTAxMSwiYnV2aWQiOiJYVzcyNEQxNzI0Njg3MTlDQzI1NjA1REIyNDI0NzhEMkUxMjE5In0.J28IlxZ6SjllQEQkq_OvFUiRYAEL2VhQG_WWBcmNppE
-  bili-http-engine: cronet
 }
 
 body:form-urlencoded {
-  access_key: {{access_key}}
-  appkey: {{appKey}}
   csrf: {{csrf}}
-  disable_rcmd: 0
-  mobi_app: android
-  platform: android
-  statistics: {"appId":1,"platform":3,"version":"7.72.0","abtest":""}
   ts: 1735713546
-  sign: aeaeff881a147dd5cd2c6e24df9dc21b
 }
